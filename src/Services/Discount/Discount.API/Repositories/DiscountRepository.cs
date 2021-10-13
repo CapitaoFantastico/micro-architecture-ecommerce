@@ -25,7 +25,7 @@ namespace Discount.API.Repositories
                 ("SELECT * FROM Coupon WHERE ProductName = @ProductName", new { ProductName = productName });
 
             if (coupon == null)
-                return new Coupon("No Discount", "No Discount Desc", 0);
+                return new Coupon(0, "No Discount", "No Discount Desc", 0);
 
             return coupon;
         }

@@ -3,8 +3,9 @@ namespace Discount.API.Entities
 {
     public class Coupon
     {
-        public Coupon(string productName, string description, int amount)
+        public Coupon(int id, string productName, string description, int amount)
         {
+            Id = id;
             ProductName = productName;
             Description = description;
             Amount = amount;
