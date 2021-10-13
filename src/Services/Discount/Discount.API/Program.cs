@@ -1,6 +1,5 @@
 using Discount.API.Extensions;
 using Discount.API.Repositories;
-using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
